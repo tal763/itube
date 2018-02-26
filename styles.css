@@ -1,0 +1,325 @@
+/* Set the custom font! */
+
+
+
+@font-face {
+	font-family: Karla-Regular;
+	src: url(fonts/Karla-Regular.ttf);
+}
+
+
+/* COLORS:
+	White: #ffffff 
+	Blue: #33ccff
+	Dark Blue: #0099cc
+	
+*/
+
+ #topbar {
+	background-color: white;
+	width: 1570px;
+	height: 50px;
+	border-bottom: 1px solid;
+	border-bottom-color:  #ecf0f1;
+	margin-top: -10px !important;
+	padding-top: 10px;
+} 
+
+.exc-icon {
+	font-size: 1.8em;
+	color: white;
+	margin-left: 5px;
+	margin-top: -1px;
+}
+
+@media only screen and (max-width: 1400px) {
+	#exc-icon-red {
+		color: red;
+	}
+}
+
+.row {
+	display: flex;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+	font-family: Karla-Regular;
+    background-color: #ffffff;
+    color: #33ccff;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	font-family: Karla-Regular;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Titles for the sections inside the dropdown */
+#dropdown-title { 
+ pointer-events: none;
+ font-family: Karla-Regular;
+ font-size: 12px;
+ color: #33ccff;
+ padding 20px 20px 
+ text-decoration: shadow;
+ display: block;
+ text-align: center;
+
+}
+
+.separator-line {
+	border-top: 1px solid rgb(217, 217, 217);
+	padding-top: 13px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	font-family: Karla-Regular;
+	font-size: 12px;
+    color: black;
+    padding: 4px 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #33ccff;
+	border-radius: 5px;
+	}
+	
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #4682B4;
+	color: #4682B4;
+	border-radius: 7px;
+}
+
+.spacing-above {
+	margin-top: 15px;
+}
+
+.spacing-below {
+	margin-bottom: 15px;
+}
+
+body{
+  font-family: Karla-Regular;
+  max-width: 1600px;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #33ccff;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #33ccff;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #33ccff;
+  background: #33ccff;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 300%;
+  transform: translate(83%, -5%);
+}
+
+#upload-button {
+	float: right;
+	font-size: 1.8em;
+	color: #33ccff;
+	transform: translate(4200%, 6%);
+}
+
+#upload-button:hover {
+	color: #0099cc;
+	cursor: pointer;
+}
+
+#signin-button {
+	float: right;
+	font-size: 11px;
+	color: white;
+	background-color: #33ccff;
+	border: none;
+	border-color: #33ccff;
+	border-radius: 5px;
+	transform: translate(1580%, -5%);
+	padding: 6px 15px;
+	padding-right: 14px;
+	margin-top: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#signin-button:hover {
+	background-color: #0099cc;
+	cursor: pointer;
+}
+
+#menu-bars {
+	color: #33ccff;
+	font-size: 1.2em;
+}
+
+#featured-video {
+	
+	border-radius: 3px;
+}
+
+#featured-text {
+	color: black;
+	font-size: 20px;
+	margin-top: .1px;
+	margin-bottom -50px;
+	margin-left: 15px;
+	text-shadow: 5px;
+	position: absolute;
+	left: 460px;
+	top: 90px;
+	
+	
+	/*
+	transform: translate(-13%, 220%);
+	*/
+}
+
+#featured-wrapper {
+	margin-top: 80px;
+	background-color: #33ccff;
+	padding-top: 10px;
+	overflow:auto;
+	width: 660px;
+	height: 350px;
+	border-radius: 15px;
+}
+
+#trending-outer-wrapper {
+	display: flex;
+	vertical-align: middle;
+	margin-top: 3px;
+	background-color: white;
+	padding-top: 8px;
+	padding-bottom: 60px;
+	overflow:auto;
+	width: 654px;
+	height: 56px;
+	
+}
+
+
+.sm-individual-wrapper {
+	background-color: #33ccff;
+	padding-top: 4px;
+	padding-bottom: 12px;
+	overflow:auto;
+	width: 140px;
+	height: 65px;
+	border-radius: 5px;
+}
+
+/*
+.sm-individual-wrapper:hover > .overlay {
+	width: 8.4%;
+	height: 10%;
+	position: absolute;
+	background-color:#000;
+	opacity:0.5;
+}
+*/
+
+.sm-video-container-left {
+	margin-left: 10px;
+
+}
+
+.sm-video-container{
+	margin-left: 25px;
+}
+
+.text-wrapper {
+	background-color: white;
+	width: 140px;
+	height: 100px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#trending-spacer {
+	padding-top: 15px;
+}
+
+#trending-text {
+	max-width: 300px;
+	color: black;
+	font-size: 20px;
+	text-shadow: 5px;
+	position: relative;
+	left: 480px;
+	top: 40px;
+	/* transform: translate(30.4%, 170%); */
+}
+
+#gaming-text {
+	max-width: 300px;
+	color: black;
+	font-size: 20px;
+	text-shadow: 5px;
+	position: relative;
+	left: 480px;
+	top: 24px;
+	/* transform: translate(30.4%, 95%); */
+}

@@ -1,0 +1,435 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<title> iTube! </title>
+		<link rel="stylesheet" href="styles.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+<body>
+	
+	<!-- Top Bar of Webpage --> 
+	<div id="topbar">
+		<div class="row">
+			<!-- My Dropdown Menu --> 
+			<div>
+				<div class="dropdown">
+				<button id="menu-bars" class="dropbtn">
+					<i class="fa fa-bars"></i>
+				</button>
+					<div class="dropdown-content">
+						<div>
+							<a href="#" id="dropdown-title"> MY LIBRARY </a>
+							<a href="#">Favorites</a>							
+							<a href="#">Playlists</a>												
+							<a href="#">Subscriptions</a>
+							<a href="#">My Uploads</a>
+							
+						</div>
+					
+						<div>
+							<a href="#" class ="spacing-above" id="dropdown-title"> BEST OF iTUBE </a>
+							<a href="#">Trending</a>	
+							<a href="#">Gaming</a>											
+							<a href="#">TV Shows</a>												
+							<a href="#">Music</a>	
+							<a href="#">Sports</a>								
+							<a href="#">Movies</a>										
+							<a href="#">News</a>																																																			
+							<a href="#">Live</a>										
+							<a href="#" class="spacing-below">Spotlight</a>
+						</div>
+						
+						<div class="separator-line"> </div>
+					
+						<div>
+							<a href="#" id="dropdown-border">Settings</a>	
+							<a href="#">Help</a>								
+							<a href="#">Feedback</a>											
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- WEBSITE LOGO --> 
+			<img id="logo-container" src= "./images/itube_icon2.png" alt="itube logo" height="30" width="110">
+		
+			<!-- EXCLAMATION ICON -->
+			<div class="exc-icon" id="exc-icon-red">
+				<i class="fa fa-exclamation-circle"></i>
+			</div>
+	
+			<!-- SEARCH BAR --> 
+			<div align="center">
+				<div class="wrap">
+					<div class="search">
+						<input type="text" class="searchTerm" placeholder="Search">
+						<button type="submit" class="searchButton">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- UPLOAD BUTTON -->
+			<div id="upload-button">
+				<i class="fa fa-upload"></i>
+			</div>
+			
+			<!-- SIGN IN BUTTON -->
+			<button id="signin-button" type="button" onclick="alert('JK!')"> Sign In! </button>
+		</div>
+	</div>
+	
+	<!-- FEATURED VIDEO OF THE DAY --> 
+	<div align="center">
+		<div id="featured-text">
+			<p> Featured Video of the Day! </p>
+		</div>
+		
+		<div id="featured-wrapper">
+			<iframe src="https://player.vimeo.com/video/255804519" width="640" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+	</div>
+	
+	
+	<div id="trending-text">
+		<p> Trending Now! </p>
+	</div>
+	
+	<!-- TRENDING VIDEOS -->
+	<div id="trending-spacer">
+		<div align="center"> 
+			<div id="trending-outer-wrapper">
+				<div class="sm-video-container-left">
+					<div class="text-wrapper">
+						<div class="sm-individual-wrapper">
+							<a href="https://vimeo.com/212981050">
+								<img src="./images/rec-1.jpg" alt="rec-1">
+							</a>
+						</div>
+						<a> Johnny Physical Lives </a>
+					</div>
+				</div>
+				
+				<div class="sm-video-container">
+					<div class="text-wrapper">
+						<div class="sm-individual-wrapper">
+							<a href="https://vimeo.com/212603149">
+								<img src="./images/rec-2.jpg" alt="rec-2">
+							</a>
+						</div>
+						
+						<a> Mami Wata | Woza </a>
+					</div>
+				</div>
+				
+				<div class="sm-video-container">
+					<div class="text-wrapper">
+						<div class="sm-individual-wrapper">
+							<a href="https://vimeo.com/johanrijpma/extrapolate">
+								<img src="./images/rec-3.jpg" alt="rec-3">
+							</a>
+						</div>
+						
+						<a> Extrapolate </a>
+					</div>
+				</div>
+				
+				<div class="sm-video-container">
+					<div class="text-wrapper">
+						<div class="sm-individual-wrapper">
+							<a href="https://vimeo.com/210599507">
+								<img src="./images/rec-4.jpg" alt="rec-4">
+							</a>
+						</div>
+						
+						<a> INORI (Prayer) </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gaming-text">
+		<p> Gaming! </p>
+	</div>
+	
+	<!-- GAMING -->
+	<div align="center"> 
+		<div id="trending-outer-wrapper">
+			<div class="sm-video-container-left">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/10649832">
+							<img src="./images/gaming-1.jpg" alt="gaming-1">
+						</a>
+					</div>
+					<a> World of Warcraft - Cinematic Trailer </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/208884939">
+							<img src="./images/gaming-2.jpg" alt="gaming-2">
+						</a>
+					</div>
+					
+					<a>SXSW Gaming Awards 2017 </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/214814331">
+							<img src="./images/gaming-3.jpg" alt="gaming-3">
+						</a>
+					</div>
+					
+					<a> League of Legends: Wild Magic </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/82114995">
+							<img src="./images/gaming-4.jpg" alt="gaming-4">
+						</a>
+					</div>
+					
+					<a> 'Kingdom Come: Deliverance' Teaser </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gaming-text">
+		<p> TV Shows! </p>
+	</div>
+	
+	<!-- TV SHOWS -->
+	<div align="center"> 
+		<div id="trending-outer-wrapper">
+			<div class="sm-video-container-left">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/joshclos/gameofthronesbreakdown">
+							<img src="./images/shows-1.jpg" alt="gaming-1">
+						</a>
+					</div>
+					<a> Game of Thrones FX Breakdown </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/110422987">
+							<img src="./images/shows-2.jpg" alt="shows-2">
+						</a>
+					</div>
+					
+					<a>The 100 Opening Titles </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/94245897">
+							<img src="./images/shows-3.jpg" alt="shows-3">
+						</a>
+					</div>
+					
+					<a> Breaking Bad - Titles </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="">
+							<img src="./images/shows-4.jpg" alt="shows-4">
+						</a>
+					</div>
+					
+					<a> Peaky Blinders: Colour Supercut </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gaming-text">
+		<p> Music! </p>
+	</div>
+	
+	<!-- MUSIC -->
+	<div align="center"> 
+		<div id="trending-outer-wrapper">
+			<div class="sm-video-container-left">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/35223726">
+							<img src="./images/music-1.jpg" alt="music-1">
+						</a>
+					</div>
+					<a> Red Hot Chili Peppers | "Monachy of Roses" </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/26913492">
+							<img src="./images/music-2.jpg" alt="music-2">
+						</a>
+					</div>
+					
+					<a>My Chemical Romance - Helena </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/16727056">
+							<img src="./images/music-3.jpg" alt="music-3">
+						</a>
+					</div>
+					
+					<a> Creed - One Last Breath </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/6954357">
+							<img src="./images/music-4.jpg" alt="music-4">
+						</a>
+					</div>
+					
+					<a> "Wail to God" Music Video </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gaming-text">
+		<p> Sports! </p>
+	</div>
+	
+	<!-- SPORTS -->
+	<div align="center"> 
+		<div id="trending-outer-wrapper">
+			<div class="sm-video-container-left">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/123685583">
+							<img src="./images/sports-1.jpg" alt="sports-1">
+						</a>
+					</div>
+					<a> travis brown clovis west football </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/123483273">
+							<img src="./images/sports-2.jpg" alt="sports-2">
+						</a>
+					</div>
+					
+					<a> Evan Kostopoulos - 14/15 </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/33843066">
+							<img src="./images/sports-3.jpg" alt="sports-3">
+						</a>
+					</div>
+					
+					<a> Athlete Highlight Reel : Davy Adams </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/8273634">
+							<img src="./images/sports-4.jpg" alt="sports-4">
+						</a>
+					</div>
+					
+					<a> Pond Hockey </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gaming-text">
+		<p> Movies! </p>
+	</div>
+	
+	<!-- SPORTS -->
+	<div align="center"> 
+		<div id="trending-outer-wrapper">
+			<div class="sm-video-container-left">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/45066851">
+							<img src="./images/movies-1.jpg" alt="movies-1">
+						</a>
+					</div>
+					<a> Designing Bond's Look </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/193194371">
+							<img src="./images/movies-2.jpg" alt="movies-2">
+						</a>
+					</div>
+					
+					<a> The Emperor's New Groove Trailer </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/98225147">
+							<img src="./images/movies-3.jpg" alt="movies-3">
+						</a>
+					</div>
+					
+					<a> A Knights Tale - Final Project ... </a>
+				</div>
+			</div>
+			
+			<div class="sm-video-container">
+				<div class="text-wrapper">
+					<div class="sm-individual-wrapper">
+						<a href="https://vimeo.com/101730165">
+							<img src="./images/movies-4.jpg" alt="movies-4">
+						</a>
+					</div>
+					
+					<a> Anchorman </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
